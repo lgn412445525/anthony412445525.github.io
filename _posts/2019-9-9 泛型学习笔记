@@ -1,0 +1,6 @@
+# 8.1 泛型
+# 8.1.1 泛型的好处: 使得程序具有更好的可读性和安全性
+## ps: ArrayList files = new ArrayListO;
+##     String filename = (String) files.get(O);
+##     没有泛型之前，使用object 对象存储。取值需要做类型转换，会导致类型转换的问题。
+## new: ArrayList<String> files = new ArrayList<String>();
